@@ -1,5 +1,6 @@
 {
-	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_UpdateDirection.gml");
-	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_UpdateDisplacement.gml");
-	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_UpdateAnimation.gml");
+	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_Update_Direction.gml");
+	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_Update_Displacement.gml");
+	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_Update_Collisions.gml");
+	execute_file(gSrcDirectory + "Player1\Update\" + "Player1_Update_Animation.gml");
 }

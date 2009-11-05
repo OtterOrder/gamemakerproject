@@ -2,11 +2,11 @@
 	mPrevDirection = mDirection;
 
 	//......................................................
-	// Update mDirection
+	// Update Direction
 	var Right, Left;
 
-	Right = keyboard_check(mKeyRight);
-	Left  = keyboard_check(mKeyLeft);
+	Right	= keyboard_check(mKeyRight);
+	Left	= keyboard_check(mKeyLeft);
 
 	mDirection = 0;
 	if( Right || Left)

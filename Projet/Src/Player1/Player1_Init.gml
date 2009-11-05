@@ -1,6 +1,8 @@
 {
 	// Speed
-	mHSpeed				= 4;
+	mWalkSpeed				= 4;
+	mJumpSpeed				= 10;
+	mFallSpeed				= 10;
 
 	// State
 	mCurrentState		= 0;
@@ -14,6 +16,7 @@
 	// Keys
 	mKeyRight			= vk_right;
 	mKeyLeft			= vk_left;
+	mKeyUp				= vk_up;
 
 	// Init
 	image_speed			= 0;

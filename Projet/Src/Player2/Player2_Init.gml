@@ -12,12 +12,12 @@
 	// Direction
 	mDirection			= 0;
 	mPrevDirection		= 0;
-	mLastDirection		= 1;	// Last real Direction
+	mLastDirection		= -1;	// Last real Direction
 
 	// Keys
-	mKeyRight			= vk_right;
-	mKeyLeft			= vk_left;
-	mKeyUp				= vk_up;
+	mKeyRight			= vk_numpad6;
+	mKeyLeft			= vk_numpad4;
+	mKeyUp				= vk_numpad8;
 
 	// Init
 	image_speed			= 0;

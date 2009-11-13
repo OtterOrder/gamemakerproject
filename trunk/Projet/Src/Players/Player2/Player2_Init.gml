@@ -15,9 +15,14 @@
 	mLastDirection		= -1;	// Last real Direction
 
 	// Keys
-	mKeyRight			= vk_numpad6;
-	mKeyLeft			= vk_numpad4;
-	mKeyUp				= vk_numpad8;
+	mKeyRight			= ord('M');
+	mKeyLeft			= ord('K');
+	mKeyUp				= ord('O');
+	
+	mKeyAction			= ord('P');
+	
+	// Machines
+	mRepairSeed			= 0.6;
 
 	// Init
 	image_speed			= 0;

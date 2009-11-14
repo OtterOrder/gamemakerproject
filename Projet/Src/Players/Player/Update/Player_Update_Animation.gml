@@ -30,70 +30,9 @@
 		image_speed = 1;
 		image_index = 0;
 
-		switch( mNextState )
-		{
-			case 0:		// Idle
-					switch( mLastDirection )
-					{
-						case 1:
-							CurrentSprite = spr_Player1_Idle;
-							break;
-						
-						case 2:
-							CurrentSprite = spr_Player1_Idle;
-							break;
-					}
-					
-					mCurrentState = 0;
-					break;
-					
-			case 1:		// Walking
-					switch( mLastDirection )
-					{
-						case 1:
-							CurrentSprite = spr_Player1_Walk_Right;
-							break;
-						
-						case 2:
-							CurrentSprite = spr_Player1_Walk_Left;
-							break;
-					}
-					
-					mCurrentState = 1;
-					break;
+		mCurrentState = mNextState;
 
-			case 2:     // Jumping
-					switch( mLastDirection )
-					{
-						case 1:
-							CurrentSprite = spr_Player1_Jump_Right;
-							break;
-						
-						case 2:
-							CurrentSprite = spr_Player1_Jump_Left;
-							break;
-					}
-
-					mCurrentState = 2;
-					break;
-					
-			case 3:     // Falling
-					switch( mLastDirection )
-					{
-						case 1:
-							CurrentSprite = spr_Player1_Fall_Right;
-							break;
-						
-						case 2:
-							CurrentSprite = spr_Player1_Fall_Left;
-							break;
-					}
-
-					mCurrentState = 3;
-					break;
-		}
-		
-		if( CurrentSprite != sprite_index )
-			sprite_index = CurrentSprite;
+		// Update sprite
+		sprite_index = mSprites[ mCurrentState, (mLastDirection-1) ];
 	}
 }

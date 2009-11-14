@@ -15,6 +15,9 @@
 	mPrevDirection		= 0;
 	mLastDirection		= 1;	// Last real Direction
 
+	// Physique
+	mPhysical			= true;
+
 	// Keys
 	mKeyRight			= ord('D');
 	mKeyLeft			= ord('Q');
@@ -35,12 +38,12 @@
 
 	mSprites[3, 0]		= spr_Player1_Fall_Right;
 	mSprites[3, 1]		= spr_Player1_Fall_Left;
-	
+
 	mSprites[4, 0]		= spr_Player1_Idle;
 	mSprites[4, 1]		= spr_Player1_Idle;
 	
 	// Machines
-	mRepairSeed			= 0.6;
+	mRepairSpeed		= 0.6;
 
 	// Init
 	image_speed			= 0;

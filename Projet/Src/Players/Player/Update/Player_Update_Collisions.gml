@@ -24,9 +24,9 @@
 
 			vspeed = 0;						// Stop movement
 		}
-		else						// If not in contact with ground
+
 		{
-			if( instance_place( x, y+1, obj_Ground ) == noone )
+			if( instance_place( x, y+1, obj_Ground ) == noone )		// If in air
 				gravity = mGravity;			// Start gravity
 		}
 

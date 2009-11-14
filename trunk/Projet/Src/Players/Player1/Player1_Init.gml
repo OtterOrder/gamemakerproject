@@ -3,6 +3,7 @@
 	mWalkSpeed			= 4;
 	mJumpSpeed			= 10;
 	mFallSpeed			= 10;
+	mClimbSpeed			= 2;
 	mGravity			= 0.5;
 
 	// State

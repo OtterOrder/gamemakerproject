@@ -1,4 +1,5 @@
 {
-	if( keyboard_check_pressed(mKeyUp) && (mCurrentState == 0) )
+	mCurrentState = 2;
+	if( keyboard_check(mKeyUp))
 		vspeed = -(mClimbSpeed);
 }

@@ -19,6 +19,7 @@
 	mKeyRight			= ord('D');
 	mKeyLeft			= ord('Q');
 	mKeyUp				= ord('Z');
+	mKeyDown			= ord('S');
 	
 	mKeyAction			= ord('E');
 
@@ -34,6 +35,9 @@
 
 	mSprites[3, 0]		= spr_Player1_Fall_Right;
 	mSprites[3, 1]		= spr_Player1_Fall_Left;
+	
+	mSprites[4, 0]		= spr_Player1_Idle;
+	mSprites[4, 1]		= spr_Player1_Idle;
 	
 	// Machines
 	mRepairSeed			= 0.6;

@@ -1,32 +1,41 @@
 {
-	if( mCurrentState == 4 )
-		vspeed = 0;
+	//......................................................
+	// Update Ladder management
 
-	if( keyboard_check(mKeyUp))
+	if( mNextState != 1 )
 	{
-		mOnLadder = true;
-		mPhysical = false;
-		x = obj_Ladder.xstart;
-		vspeed = -(mClimbSpeed);
-		
-		if(instance_place( x, y-sprite_height, obj_Ladder ) == noone)
+		if( mCurrentState == 4 )
 		{
-			mPhysical = true;
-			mOnLadder = false;
+			mDirection = 0;
+			mNextState = 4;
+		}
+
+		if( keyboard_check(mKeyUp) && instance_place( x, y-sprite_height, obj_Ladder ) != noone)
+		{
+			mDirection = -1;
+			mNextState = 4;
+		}
+	
+		if( keyboard_check(mKeyDown) && instance_place( x, y+sprite_height, obj_Ladder ) != noone)
+		{
+			mDirection = 1;
+			mNextState = 4;
 		}
 	}
-		
-	if( keyboard_check(mKeyDown) )
+	
+	if( mNextState == 4)
 	{
+		x = obj_Ladder.xstart;
+
 		mOnLadder = true;
 		mPhysical = false;
-		x = obj_Ladder.xstart;
-		vspeed = (mClimbSpeed);
-		
-		if(instance_place( x, y+sprite_height, obj_Ladder ) == noone)
-		{
-			mPhysical = true;
-			mOnLadder = false;
-		}
+
+		hspeed = 0;
+		vspeed = mDirection * mClimbSpeed;
+	}
+	else
+	{
+		mPhysical = true;
+		mOnLadder = false;
 	}
 }

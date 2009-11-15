@@ -1,14 +1,9 @@
 {
 	//......................................................
 	// Update Displacement
-	var XDisplacement;
-	XDisplacement = mWalkSpeed * mDirection;
 
-	if (place_free(x + XDisplacement, y) && (mOnLadder != true) )
-	{
-		hspeed = XDisplacement;
-	}
-	
+	hspeed = mWalkSpeed * mDirection;
+
 	if( keyboard_check(mKeyUp) && (mCurrentState == 0 || mCurrentState == 1) )
 	{
         vspeed = -(mJumpSpeed);

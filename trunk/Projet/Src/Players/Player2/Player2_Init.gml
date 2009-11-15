@@ -3,11 +3,13 @@
 	mWalkSpeed			= 4;
 	mJumpSpeed			= 10;
 	mFallSpeed			= 10;
+	mClimbSpeed			= 2;
 	mGravity			= 0.5;
 
 	// State
 	mCurrentState		= 0;
 	mNextState			= 0;
+	mOnLadder			= false;
 
 	// Direction
 	mDirection			= 0;
@@ -21,6 +23,7 @@
 	mKeyRight			= ord('M');
 	mKeyLeft			= ord('K');
 	mKeyUp				= ord('O');
+	mKeyDown			= ord('L');
 
 	mKeyAction			= ord('P');
 
@@ -36,6 +39,9 @@
 
 	mSprites[3, 0]		= spr_Player2_Fall_Right;
 	mSprites[3, 1]		= spr_Player2_Fall_Left;
+	
+	mSprites[4, 0]		= spr_Player2_Ladder;
+	mSprites[4, 1]		= spr_Player2_Ladder;
 
 	// Machines
 	mRepairSpeed		= 0.6;

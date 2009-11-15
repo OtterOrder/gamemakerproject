@@ -9,6 +9,7 @@
 	// State
 	mCurrentState		= 0;
 	mNextState			= 0;
+	mOnLadder			= false;
 
 	// Direction
 	mDirection			= 0;
@@ -39,8 +40,8 @@
 	mSprites[3, 0]		= spr_Player1_Fall_Right;
 	mSprites[3, 1]		= spr_Player1_Fall_Left;
 
-	mSprites[4, 0]		= spr_Player1_Idle;
-	mSprites[4, 1]		= spr_Player1_Idle;
+	mSprites[4, 0]		= spr_Player1_Fall_Right;
+	mSprites[4, 1]		= spr_Player1_Fall_Right;
 	
 	// Machines
 	mRepairSpeed		= 0.6;

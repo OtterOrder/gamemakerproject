@@ -33,7 +33,7 @@
 	
 	if( mNextState == 4)
 	{
-		x = obj_Ladder.xstart;
+		x = instance_place( x, y, obj_Ladder ).x;
 
 		mOnLadder = true;
 		mPhysical = false;

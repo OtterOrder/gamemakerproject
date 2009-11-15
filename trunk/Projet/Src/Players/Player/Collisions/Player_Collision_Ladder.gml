@@ -8,7 +8,6 @@
 		mPhysical = false;
 		x = obj_Ladder.xstart;
 		vspeed = -(mClimbSpeed);
-		mDirection = 1;
 		
 		if(instance_place( x, y-sprite_height, obj_Ladder ) == noone)
 		{
@@ -23,7 +22,6 @@
 		mPhysical = false;
 		x = obj_Ladder.xstart;
 		vspeed = (mClimbSpeed);
-		mDirection = 1;
 		
 		if(instance_place( x, y+sprite_height, obj_Ladder ) == noone)
 		{

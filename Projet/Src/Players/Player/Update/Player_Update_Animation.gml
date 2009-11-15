@@ -2,9 +2,11 @@
 	//......................................................
 	// Update Next State
 	
-	if(mOnLadder == true)
+	if(mOnLadder)
 	{
-		mNexState = 4;
+		mNexState = 0;
+		if(mNextState==0)
+			show_message( "test");
 	}
 	else
 	if( vspeed < 0 )
@@ -25,6 +27,10 @@
 	{
 		mNextState = 0;
 	}
+	
+	
+	if(mNextState==4)
+			show_message( string(mCurrentState));
 
 	//......................................................
 	// Update Current State

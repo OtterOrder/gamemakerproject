@@ -40,8 +40,8 @@
 	mSprites[3, 0]		= spr_Player1_Fall_Right;
 	mSprites[3, 1]		= spr_Player1_Fall_Left;
 
-	mSprites[4, 0]		= spr_Player1_Fall_Right;
-	mSprites[4, 1]		= spr_Player1_Fall_Right;
+	mSprites[4, 0]		= spr_Player1_Ladder;
+	mSprites[4, 1]		= spr_Player1_Ladder;
 	
 	// Machines
 	mRepairSpeed		= 0.6;

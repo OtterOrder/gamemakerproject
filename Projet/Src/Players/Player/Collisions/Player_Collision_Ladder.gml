@@ -10,16 +10,24 @@
 			mNextState = 4;
 		}
 
-		if( keyboard_check(mKeyUp) && instance_place( x, y-sprite_height, obj_Ladder ) != noone)
+		var Up, Down;
+		Up		= keyboard_check(mKeyUp);
+		Down	= keyboard_check(mKeyDown)
+
+		if( Up ^^ Down )
 		{
-			mDirection = -1;
-			mNextState = 4;
-		}
-	
-		if( keyboard_check(mKeyDown) && instance_place( x, y+sprite_height, obj_Ladder ) != noone)
-		{
-			mDirection = 1;
-			mNextState = 4;
+			if( Up )
+				mDirection = -1;
+			else
+				mDirection = 1;
+		
+			if( instance_place( x, y + mDirection*sprite_height, obj_Ladder ) != noone )
+				mNextState = 4;
+			else
+			{
+				mNextState = 0;
+				mDirection = 0;
+			}
 		}
 	}
 	

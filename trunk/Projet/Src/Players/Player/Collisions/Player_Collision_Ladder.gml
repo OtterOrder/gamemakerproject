@@ -1,6 +1,6 @@
 {
-	
-	vspeed = 0;
+	if( mCurrentState == 4 )
+		vspeed = 0;
 
 	if( keyboard_check(mKeyUp))
 	{
@@ -29,6 +29,4 @@
 			mOnLadder = false;
 		}
 	}
-		
-	
 }

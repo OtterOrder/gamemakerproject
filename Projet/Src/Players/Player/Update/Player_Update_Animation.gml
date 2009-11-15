@@ -34,12 +34,20 @@
 
 	if( mCurrentState != mNextState || mDirection != mPrevDirection )
 	{
-		image_speed = 1;
-		image_index = 0;
+		if(mCurrentState != 4)
+		{
+			image_speed = 1;
+			image_index = 0;
+		}
 
 		mCurrentState = mNextState;
 
 		// Update sprite
 		sprite_index = mSprites[ mCurrentState, (mLastDirection-1) ];
+	}
+	
+	if (mCurrentState == 4)
+	{
+		image_speed = vspeed / mClimbSpeed;
 	}
 }

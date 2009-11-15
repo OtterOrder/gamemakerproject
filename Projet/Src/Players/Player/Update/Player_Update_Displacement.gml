@@ -4,7 +4,7 @@
 	var XDisplacement;
 	XDisplacement = mWalkSpeed * mDirection;
 
-	if (place_free(x + XDisplacement, y))
+	if (place_free(x + XDisplacement, y) && (mOnLadder != true) )
 	{
 		hspeed = XDisplacement;
 	}

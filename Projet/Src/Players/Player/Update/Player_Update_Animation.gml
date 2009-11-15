@@ -1,6 +1,12 @@
 {
 	//......................................................
 	// Update Next State
+	
+	if(mOnLadder == true)
+	{
+		mNexState = 4;
+	}
+	else
 	if( vspeed < 0 )
     {
         mNextState = 2;

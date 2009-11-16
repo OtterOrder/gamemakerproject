@@ -33,7 +33,7 @@
 	
 	if( mNextState == 4)
 	{
-		x = instance_place( x, y, obj_Ladder ).x;
+		x = instance_place( x, y, obj_Ladder ).x + sprite_xoffset;
 
 		mOnLadder = true;
 		mPhysical = false;

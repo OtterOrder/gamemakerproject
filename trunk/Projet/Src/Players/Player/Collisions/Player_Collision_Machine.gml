@@ -1,4 +1,4 @@
 {
 	if( keyboard_check_pressed(mKeyAction) )
-		obj_Machine.mHealth += mRepairSpeed;
+		(instance_place( x, y, obj_Machine )).mHealth += mRepairSpeed;
 }

@@ -4,7 +4,7 @@
 
 	hspeed = mWalkSpeed * mDirection;
 
-	if( keyboard_check(mKeyUp) && (mCurrentState == 0 || mCurrentState == 1) )
+	if( keyboard_check(mKeyJump) && (mCurrentState == 0 || mCurrentState == 1) )
 	{
         vspeed = -(mJumpSpeed);
 	}

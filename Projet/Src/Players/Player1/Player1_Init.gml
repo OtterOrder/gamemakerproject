@@ -24,7 +24,8 @@
 	mKeyLeft			= ord('Q');
 	mKeyUp				= ord('Z');
 	mKeyDown			= ord('S');
-	
+
+	mKeyJump			= vk_shift;
 	mKeyAction			= ord('E');
 
 	// Sprites

@@ -2,7 +2,7 @@
 	//......................................................
 	// Update Ladder management
 
-	if( mNextState != 1 || instance_place( x, y, obj_Ground ) != noone )
+	if( mDirection == 0 || instance_place( x, y, obj_Ground ) != noone )
 	{
 		if( mCurrentState == 4 )
 		{

@@ -21,7 +21,7 @@
 			else
 				mDirection = 1;
 		
-			if( instance_place( x, y + mDirection*sprite_height, obj_Ladder ) != noone )
+			if( instance_place( x, y + mDirection*sprite_height, obj_Ladder ) != noone || instance_place( x, y, obj_Ground ) != noone)
 				mNextState = 4;
 			else
 			{

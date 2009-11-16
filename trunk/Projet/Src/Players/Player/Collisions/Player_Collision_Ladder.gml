@@ -1,8 +1,11 @@
 {
 	//......................................................
 	// Update Ladder management
+	var CurrentLadder, GroundBlock;
+	CurrentLadder	= instance_place( x, y, obj_Ladder );
+	GroundBlock		= instance_place( x, y, obj_Ground );
 
-	if( mDirection == 0 || instance_place( x, y, obj_Ground ) != noone )
+	if( mDirection == 0 || GroundBlock != noone )
 	{
 		if( mCurrentState == 4 )
 		{
@@ -20,20 +23,45 @@
 				mDirection = -1;
 			else
 				mDirection = 1;
-		
-			if( instance_place( x, y + mDirection*sprite_height, obj_Ladder ) != noone || instance_place( x, y, obj_Ground ) != noone)
-				mNextState = 4;
-			else
+
+			mNextState = 4;
+
+			if( GroundBlock == noone )
 			{
-				mNextState = 0;
-				mDirection = 0;
+/*
+				if(	(mDirection == -1 && CurrentLadder.bbox_top > bbox_top) || 
+					(mDirection == 1  && CurrentLadder.bbox_bottom < bbox_bottom) )
+				{
+					mNextState = 0;
+					mDirection = 0;
+				}
+*/
+				if( mDirection == -1 )
+				{
+					if( CurrentLadder.bbox_top > bbox_top &&
+						instance_position( CurrentLadder.x, CurrentLadder.bbox_top -1, obj_Ladder) == noone )
+					{
+						mNextState = 0;
+						mDirection = 0;
+					}
+				}
+				else
+				if( mDirection == 1 )
+				{
+					if( CurrentLadder.bbox_bottom < bbox_bottom &&
+						instance_position( CurrentLadder.x, CurrentLadder.bbox_bottom +1, obj_Ladder) == noone )
+					{
+						mNextState = 0;
+						mDirection = 0;
+					}
+				}
 			}
 		}
 	}
 	
 	if( mNextState == 4)
 	{
-		x = instance_place( x, y, obj_Ladder ).x + sprite_xoffset;
+		x = CurrentLadder.x + sprite_xoffset;
 
 		mOnLadder = true;
 		mPhysical = false;

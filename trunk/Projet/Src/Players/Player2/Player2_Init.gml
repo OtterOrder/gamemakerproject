@@ -25,6 +25,7 @@
 	mKeyUp				= ord('O');
 	mKeyDown			= ord('L');
 
+	mKeyJump			= ord('N');
 	mKeyAction			= ord('P');
 
 	// Sprites
@@ -39,7 +40,7 @@
 
 	mSprites[3, 0]		= spr_Player2_Fall_Right;
 	mSprites[3, 1]		= spr_Player2_Fall_Left;
-	
+
 	mSprites[4, 0]		= spr_Player2_Ladder;
 	mSprites[4, 1]		= spr_Player2_Ladder;
 

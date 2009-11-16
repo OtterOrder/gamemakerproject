@@ -42,6 +42,12 @@
 
 	mSprites[4, 0]		= spr_Player1_Ladder;
 	mSprites[4, 1]		= spr_Player1_Ladder;
+
+	// Collisions
+	mNbColliObj			= 2;
+	mColliObj[0]		= obj_Ground;
+	mColliObj[1]		= obj_Wall;
+	
 	
 	// Machines
 	mRepairSpeed		= 0.6;

@@ -1,10 +1,15 @@
 {
+	//
+	mHSpeed				= 0;
+	mVSpeed				= 0;
+	mGravity			= 0;
+
 	// Speed
 	mWalkSpeed			= 4;
 	mJumpSpeed			= 10;
 	mFallSpeed			= 10;
 	mClimbSpeed			= 2;
-	mGravity			= 0.5;
+	mGravityCoef		= 0.5;
 
 	// State
 	mCurrentState		= 0;

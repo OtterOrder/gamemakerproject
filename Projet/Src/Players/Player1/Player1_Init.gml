@@ -29,8 +29,8 @@
 	mKeyAction			= ord('E');
 
 	// Sprites
-	mSprites[0, 0]		= spr_Player1_Idle;
-	mSprites[0, 1]		= spr_Player1_Idle;
+	mSprites[0, 0]		= spr_Player1_Idle_Right;
+	mSprites[0, 1]		= spr_Player1_Idle_Left;
 
 	mSprites[1, 0]		= spr_Player1_Walk_Right;
 	mSprites[1, 1]		= spr_Player1_Walk_Left;

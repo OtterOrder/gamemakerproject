@@ -28,14 +28,6 @@
 
 			if( GroundBlock == noone )
 			{
-/*
-				if(	(mDirection == -1 && CurrentLadder.bbox_top > bbox_top) || 
-					(mDirection == 1  && CurrentLadder.bbox_bottom < bbox_bottom) )
-				{
-					mNextState = 0;
-					mDirection = 0;
-				}
-*/
 				if( mDirection == -1 )
 				{
 					if( CurrentLadder.bbox_top > bbox_top &&
@@ -58,7 +50,7 @@
 			}
 		}
 	}
-	
+
 	if( mNextState == 4)
 	{
 		x = CurrentLadder.x + sprite_xoffset;

@@ -2,23 +2,31 @@
 {
     room_caption = string(fps);
 
+    script_execute( scr_Player_Update_Init );
+
     script_execute( scr_Player_Update_Direction );
     script_execute( scr_Player_Update_Displacement );
+}
+#define scr_Player_Update_End
+{
+    script_execute( scr_Player_Update_NextState );
 
     script_execute( scr_Player_Update_Collisions, mColliObj[0], true);
     script_execute( scr_Player_Update_Collisions, mColliObj[1], false);
 
-    script_execute( scr_Player_Update_NextState );  
-
-}
-#define scr_Player_Update_Draw
-{
     script_execute( scr_Player_Update_Animation );
 }
-#define scr_Player_Update_Direction
+#define scr_Player_Update_Init
 {
     mPrevDirection = mDirection;
 
+    mNextState = 0;
+    mDirection = 0;
+    
+    mPhysical = true;
+}
+#define scr_Player_Update_Direction
+{
     //......................................................
     // Update Direction
     var Right, Left;
@@ -48,16 +56,16 @@
     //......................................................
     // Update Displacement
 
-    hspeed = mWalkSpeed * mDirection;
+    mHSpeed = mWalkSpeed * mDirection;
 
     if( keyboard_check(mKeyJump) && (mCurrentState == 0 || mCurrentState == 1) )
     {
-        vspeed = -(mJumpSpeed);
+        mVSpeed = -(mJumpSpeed);
     }
 
-    if( vspeed > mFallSpeed )
+    if( mVSpeed > mFallSpeed )
     {
-        vspeed = mFallSpeed;
+        mVSpeed = mFallSpeed;
     }
 
     // Keep object in room
@@ -77,18 +85,20 @@
 {
     //......................................................
     // Update NextState
+    if ( mNextState >= 4 )
+        return 0;
 
-    if( vspeed < 0 )
+    if( mVSpeed < 0 )
     {
         mNextState = 2;
     }
     else
-    if( vspeed >= 0 && gravity != 0 )
+    if( mVSpeed >= 0 && mGravity != 0 )
     {
         mNextState = 3;
     }
     else
-    if( hspeed != 0 )
+    if( mHSpeed != 0 )
     {
         mNextState = 1;
     }
@@ -101,6 +111,9 @@
 {
     //......................................................
     // Update Current State
+    x += mHSpeed;
+    mVSpeed += mGravity;
+    y += mVSpeed;
 
     if( mCurrentState != mNextState || mDirection != mPrevDirection )
     {
@@ -132,11 +145,11 @@
         var ColliObj;
 
         // Vertical
-        ColliObj = instance_place( x, y+vspeed, argument[0] );
+        ColliObj = instance_place( x, y+mVSpeed, argument[0] );
 
         if( ColliObj != noone )	// If collision with ground
         {
-            if( vspeed < 0 )			// If go up
+            if( mVSpeed < 0 )			// If go up
             {
                 y = ColliObj.bbox_bottom + ( sprite_get_yoffset(sprite_index) - sprite_get_bbox_top(sprite_index)) +1;
             }
@@ -147,18 +160,18 @@
                 Gravity = 0;				// Stop Gravity
             }
 
-            vspeed = 0;						// Stop movement
+            mVSpeed = 0;						// Stop movement
         }
 
         if( instance_place( x, y+1, argument[0] ) == noone )		// If in air
-            Gravity = mGravity;			// Start Gravity
+            Gravity = mGravityCoef;			// Start Gravity
 
         // Horizontal
-        ColliObj = instance_place( x+hspeed, y, argument[0] );
+        ColliObj = instance_place( x+mHSpeed, y, argument[0] );
 
         if( ColliObj != noone )	// If collision with ground
         {
-            if( hspeed < 0 )			// If go left
+            if( mHSpeed < 0 )			// If go left
             {
                 x = ColliObj.bbox_right + ( sprite_get_xoffset(sprite_index) - sprite_get_bbox_left(sprite_index)) +1;
             }
@@ -167,7 +180,7 @@
                 x = ColliObj.bbox_left + ( sprite_get_xoffset(sprite_index) - sprite_get_bbox_right(sprite_index)) -1;
             }
 
-            hspeed = 0;						// Stop movement
+            mHSpeed = 0;						// Stop movement
         }
     }
     else
@@ -177,7 +190,7 @@
 
     if( argument[1] )
     {
-        gravity = Gravity;
+        mGravity = Gravity;
     }
 }
 #define scr_Player_Collision_Machine
@@ -218,7 +231,7 @@
             {
                 if( mDirection == -1 )
                 {
-                    if( CurrentLadder.bbox_top > bbox_top &&
+                    if( CurrentLadder.bbox_top >= (bbox_top - mClimbSpeed -1) &&
                         instance_position( CurrentLadder.x, CurrentLadder.bbox_top -1, obj_Ladder) == noone )
                     {
                         mNextState = 0;
@@ -228,7 +241,7 @@
                 else
                 if( mDirection == 1 )
                 {
-                    if( CurrentLadder.bbox_bottom < bbox_bottom &&
+                    if( CurrentLadder.bbox_bottom <= (bbox_bottom + mClimbSpeed +1) &&
                         instance_position( CurrentLadder.x, CurrentLadder.bbox_bottom +1, obj_Ladder) == noone )
                     {
                         mNextState = 0;
@@ -246,8 +259,8 @@
         mOnLadder = true;
         mPhysical = false;
 
-        hspeed = 0;
-        vspeed = mDirection * mClimbSpeed;
+        mHSpeed = 0;
+        mVSpeed = mDirection * mClimbSpeed;
     }
     else
     {

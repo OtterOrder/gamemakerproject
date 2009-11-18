@@ -1,30 +1,10 @@
 {
-	//
-	mHSpeed				= 0;
-	mVSpeed				= 0;
-	mGravity			= 0;
-
-	mActive				= true;
-	
 	// Speed
 	mWalkSpeed			= 4;
 	mJumpSpeed			= 10;
 	mFallSpeed			= 10;
 	mClimbSpeed			= 2;
 	mGravityCoef		= 0.5;
-
-	// State
-	mCurrentState		= 0;
-	mNextState			= 0;
-	mOnLadder			= false;
-
-	// Direction
-	mDirection			= 0;
-	mPrevDirection		= 0;
-	mLastDirection		= 2;	// Last real Direction
-
-	// Physique
-	mPhysical			= true;
 
 	// Keys
 	mKeyRight			= ord('M');
@@ -34,6 +14,9 @@
 
 	mKeyJump			= ord('N');
 	mKeyAction			= ord('P');
+
+	// Machines
+	mRepairSpeed		= 0.6;
 
 	// Sprites
 	mSprites[0, 0]		= spr_Player2_Idle_Right;
@@ -50,16 +33,4 @@
 
 	mSprites[4, 0]		= spr_Player2_Ladder;
 	mSprites[4, 1]		= spr_Player2_Ladder;
-
-	// Collisions
-	mNbColliObj			= 2;
-	mColliObj[0]		= obj_Ground;
-	mColliObj[1]		= obj_Wall;
-
-	// Machines
-	mRepairSpeed		= 0.6;
-	mObjIndice		    = 0;
-
-	// Init
-	image_speed			= 0;
 }

@@ -4,6 +4,8 @@
 	mVSpeed				= 0;
 	mGravity			= 0;
 
+	mActive				= true;
+	
 	// Speed
 	mWalkSpeed			= 4;
 	mJumpSpeed			= 10;

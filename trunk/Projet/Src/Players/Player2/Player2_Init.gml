@@ -58,6 +58,7 @@
 
 	// Machines
 	mRepairSpeed		= 0.6;
+	mObjIndice		    = 0;
 
 	// Init
 	image_speed			= 0;

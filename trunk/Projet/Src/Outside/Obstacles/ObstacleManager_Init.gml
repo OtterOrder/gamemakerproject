@@ -1,8 +1,8 @@
 {
 	//
-	mObstaclesSpeed		= 2;
-	mObstacleProba		= 20;
-	mNbMaxObstacles		= 20;
+	mObstaclesSpeed		= 3;
+	mObstacleProba		= 1;
+	mNbMaxObstacles		= 40;
 
 	mNbSprites			= 3;
 	mSprites[0]			= spr_Obstacle_01;

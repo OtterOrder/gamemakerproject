@@ -33,4 +33,7 @@
 
 	mSprites[4, 0]		= spr_Player1_Ladder;
 	mSprites[4, 1]		= spr_Player1_Ladder;
+
+	// View
+	mViewId				= 0;
 }

@@ -15,9 +15,6 @@
 	mKeyJump			= ord('N');
 	mKeyAction			= ord('P');
 
-	// Machines
-	mRepairSpeed		= 0.6;
-
 	// Sprites
 	mSprites[0, 0]		= spr_Player2_Idle_Right;
 	mSprites[0, 1]		= spr_Player2_Idle_Left;
@@ -33,6 +30,12 @@
 
 	mSprites[4, 0]		= spr_Player2_Ladder;
 	mSprites[4, 1]		= spr_Player2_Ladder;
+
+	mSprites[5, 0]		= spr_Player2_Door_In;
+	mSprites[5, 1]		= spr_Player2_Door_In;
+
+	mSprites[6, 0]		= spr_Player2_Door_Out;
+	mSprites[6, 1]		= spr_Player2_Door_Out;
 
 	// View
 	mViewId				= 1;

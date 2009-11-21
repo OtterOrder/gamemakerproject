@@ -1,7 +1,7 @@
 {
 	//
 	mObstaclesSpeed		= 3;
-	mObstacleProba		= 20;
+	mObstacleProba		= 1;
 	mNbMaxObstacles		= 30;
 
 	mNbSprites			= 3;

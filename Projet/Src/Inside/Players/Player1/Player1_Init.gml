@@ -15,9 +15,6 @@
 	mKeyJump			= vk_shift;
 	mKeyAction			= ord('E');
 
-	// Machines
-	mRepairSpeed		= 0.6;
-
 	// Sprites
 	mSprites[0, 0]		= spr_Player1_Idle_Right;
 	mSprites[0, 1]		= spr_Player1_Idle_Left;
@@ -33,6 +30,12 @@
 
 	mSprites[4, 0]		= spr_Player1_Ladder;
 	mSprites[4, 1]		= spr_Player1_Ladder;
+
+	mSprites[5, 0]		= spr_Player1_Ladder;
+	mSprites[5, 1]		= spr_Player1_Ladder;
+
+	mSprites[6, 0]		= spr_Player1_Ladder;
+	mSprites[6, 1]		= spr_Player1_Ladder;
 
 	// View
 	mViewId				= 0;

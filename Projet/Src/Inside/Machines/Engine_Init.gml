@@ -2,9 +2,9 @@
 	//
 	mHealthMax		= 120;
 	mHealth			= mHealthMax;
-	mDamageSpeed	= 0.2;
+	mDamageSpeed	= 0.02;
 
-	mRepairSpeed	= 50;
+	mRepairSpeed	= 60;
 
 	mNeededObj		= 1;
 

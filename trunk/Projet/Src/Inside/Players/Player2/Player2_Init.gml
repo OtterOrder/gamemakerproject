@@ -31,11 +31,11 @@
 	mSprites[4, 0]		= spr_Player2_Ladder;
 	mSprites[4, 1]		= spr_Player2_Ladder;
 
-	mSprites[5, 0]		= spr_Player2_Door_In;
-	mSprites[5, 1]		= spr_Player2_Door_In;
+	mSprites[5, 0]		= spr_Player2_DoorIn_Right;
+	mSprites[5, 1]		= spr_Player2_DoorIn_Left;
 
-	mSprites[6, 0]		= spr_Player2_Door_Out;
-	mSprites[6, 1]		= spr_Player2_Door_Out;
+	mSprites[6, 0]		= spr_Player2_DoorOut_Right;
+	mSprites[6, 1]		= spr_Player2_DoorOut_Left;
 
 	// View
 	mViewId				= 1;

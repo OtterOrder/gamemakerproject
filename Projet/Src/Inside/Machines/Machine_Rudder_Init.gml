@@ -4,7 +4,8 @@
 	mHealth			= 0;
 	mDamageSpeed	= 15;
 
-	mRepairSpeed	= 0;
+	mRepairSpeed		= mHealthMax;
+	mRepairHealthMax	= 0;
 
 	mNeededObj		= 0;
 

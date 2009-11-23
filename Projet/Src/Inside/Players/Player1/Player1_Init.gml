@@ -15,6 +15,8 @@
 	mKeyJump			= vk_shift;
 	mKeyAction			= ord('E');
 
+	mKeyTimer			= 0;
+
 	// Sprites
 	mSprites[0, 0]		= spr_Player1_Idle_Right;
 	mSprites[0, 1]		= spr_Player1_Idle_Left;

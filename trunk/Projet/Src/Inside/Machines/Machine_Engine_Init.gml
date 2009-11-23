@@ -2,11 +2,15 @@
 	//
 	mHealthMax		= 120;
 	mHealth			= mHealthMax;
-	mDamageSpeed	= 0.02;
+	mHealthBonus	= 100;
+	mDamageSpeed	= 0.2;
 
-	mRepairSpeed	= 60;
+	mRepairSpeed	= 90;
 
 	mNeededObj		= 1;
+
+	mEngineSpeedMax	= 4;
+	mEngineSpeedMin = 0;
 
 	// Init
 	image_speed		= 0;

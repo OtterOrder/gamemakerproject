@@ -3,7 +3,9 @@
 	mHealthMax			= 120;
 	mHealth				= mHealthMax;
 	mHealthBonus		= 100;
-	mDamageSpeed		= 0.02;
+
+	mDamageA			= 0.02;	// Damages = A + B*time
+	mDamageB			= 0;
 
 	mRepairSpeed		= 90;
 	mRepairHealthMax	= mHealthMax;

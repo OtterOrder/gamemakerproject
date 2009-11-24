@@ -39,6 +39,12 @@
 	mSprites[6, 0]		= spr_Player2_DoorOut_Right;
 	mSprites[6, 1]		= spr_Player2_DoorOut_Left;
 
+
+	mMachineSprites[0]	= spr_Player2_Zeus;	// Zeus
+	mMachineSprites[1]	= spr_Player2_Ladder;	// Pipes
+	mMachineSprites[2]	= spr_Player2_Ladder;	// Engines
+	mMachineSprites[3]	= spr_Player2_Ladder;	// Rudder
+
 	// View
 	mViewId				= 1;
 }

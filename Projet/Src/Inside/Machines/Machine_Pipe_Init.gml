@@ -3,8 +3,8 @@
 	mHealthMax			= 100;
 	mHealth				= mHealthMax;
 
-	mDamageA			= 1;	// Damages = A + B*time
-	mDamageB			= 0.2;
+	mDamageA			= 1/room_speed;	// Damages = A + B*time
+	mDamageB			= 0.2/room_speed;
 
 	mRepairSpeed		= 5;
 	mRepairHealthMax	= mHealthMax;

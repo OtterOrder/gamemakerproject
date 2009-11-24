@@ -48,8 +48,4 @@
 		global.sd_Fusee_Colli_1		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_1.wav", 3, true);
 		
 		global.sd_Fusee_Colli_2		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_2.wav", 3, true);
-	
-	
-	
-
 }

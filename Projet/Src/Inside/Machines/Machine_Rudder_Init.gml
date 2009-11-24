@@ -2,7 +2,9 @@
 	//
 	mHealthMax			= 100;
 	mHealth				= 0;
-	mDamageSpeed		= 15;
+
+	mDamageA			= 15;	// Damages = A + B*time
+	mDamageB			= 0;
 
 	mRepairSpeed		= mHealthMax;
 	mRepairHealthMax	= 0;

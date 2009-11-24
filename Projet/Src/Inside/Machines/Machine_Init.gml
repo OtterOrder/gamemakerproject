@@ -2,11 +2,13 @@
 	//
 	mHealthMax			= 100;
 	mHealth				= mHealthMax;
-	mDamageSpeed		= 0.2;
+
+	mDamageA			= 0.2;	// Damages = A + B*time
+	mDamageB			= 0;
 
 	mRepairSpeed		= 6;
 	mRepairHealthMax	= mHealthMax;
-	
+
 	mNeededObj			= -1;
 
 	// Init

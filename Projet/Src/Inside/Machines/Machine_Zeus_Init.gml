@@ -2,7 +2,10 @@
 	//
 	mHealthMax			= 100;
 	mHealth				= mHealthMax;
-	mDamageSpeed		= 0.02;
+
+	mDamageA			= 1;	// Damages = A + B*time
+	mDamageB			= 0.2;
+
 	mShootDamage		= 10;
 
 	mRepairSpeed		= 1;

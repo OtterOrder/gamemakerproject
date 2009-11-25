@@ -5,7 +5,9 @@
 	
 	// Menu & Options
 	
-		global.sd_HUD_ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 3, true);
+		global.sd_HUD_ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 0, true);
+		
+			sound_volume (global.sd_HUD_ok, 0.8);
 	
 	// Start game
 	
@@ -37,13 +39,13 @@
 	
 	// Fusée
 	
-		global.sd_Fusee_Fire_1		= sound_add ( "Datas/Sounds/SND__WPN__FIRE1.wav", 3, true);
+		global.sd_Fusee_Fire_1		= sound_add ( "Datas/Sounds/SND__WPN__FIRE1.wav", 0, true);
 		
-		global.sd_Fusee_Fire_2		= sound_add ( "Datas/Sounds/SND__WPN__FIRE2.wav", 3, true);
+		global.sd_Fusee_Fire_2		= sound_add ( "Datas/Sounds/SND__WPN__FIRE2.wav", 0, true);
 		
-		global.sd_Fusee_Fire_3		= sound_add ( "Datas/Sounds/SND__WPN__FIRE3.wav", 3, true);
+		global.sd_Fusee_Fire_3		= sound_add ( "Datas/Sounds/SND__WPN__FIRE3.wav", 0, true);
 		
-		global.sd_Fusee_Fire_4		= sound_add ( "Datas/Sounds/SND__WPN__FIRE4.wav", 3, true);
+		global.sd_Fusee_Fire_4		= sound_add ( "Datas/Sounds/SND__WPN__FIRE4.wav", 0, true);
 	
 		global.sd_Fusee_Colli_1		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_1.wav", 0, true);
 		

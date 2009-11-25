@@ -23,7 +23,9 @@
 	
 		global.sd_Ladder			= sound_add ( "Datas/Sounds/SND__ACTION__LADDER.wav", 0, true);
 	
-		global.sd_Ladder_Move 		= sound_add ( "Datas/Sounds/SND__ACTION__LADDER_MOVE.wav", 0, true);
+		global.sd_Ladder_Move1 		= sound_add ( "Datas/Sounds/SND__ACTION__LADDER_MOVE.wav", 0, true);
+		
+		global.sd_Ladder_Move2 		= sound_add ( "Datas/Sounds/SND__ACTION__LADDER_MOVE.wav", 0, true);
 		
 		global.sd_Jump	 			= sound_add ( "Datas/Sounds/SND__ACTION__JUMP.wav", 0, true);
 		

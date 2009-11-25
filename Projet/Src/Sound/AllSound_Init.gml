@@ -19,13 +19,13 @@
 	
 	// Perso : Déplacements
 	
-		global.sd_Ladder			= sound_add ( "Datas/Sounds/SND__ACTION__LADDER.wav", 3, true);
+		global.sd_Ladder			= sound_add ( "Datas/Sounds/SND__ACTION__LADDER.wav", 0, true);
 	
-		global.sd_Ladder_Move 		= sound_add ( "Datas/Sounds/SND__ACTION__LADDER_MOVE.wav", 3, true);
+		global.sd_Ladder_Move 		= sound_add ( "Datas/Sounds/SND__ACTION__LADDER_MOVE.wav", 0, true);
 		
-		global.sd_Jump	 			= sound_add ( "Datas/Sounds/SND__ACTION__JUMP.wav", 3, true);
+		global.sd_Jump	 			= sound_add ( "Datas/Sounds/SND__ACTION__JUMP.wav", 0, true);
 		
-		global.sd_Jump_Reception	= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 3, true);
+		global.sd_Jump_Reception	= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 0, true);
 		
 	// Perso : Actions
 	
@@ -45,7 +45,7 @@
 		
 		global.sd_Fusee_Fire_4		= sound_add ( "Datas/Sounds/SND__WPN__FIRE4.wav", 3, true);
 	
-		global.sd_Fusee_Colli_1		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_1.wav", 3, true);
+		global.sd_Fusee_Colli_1		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_1.wav", 0, true);
 		
-		global.sd_Fusee_Colli_2		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_2.wav", 3, true);
+		global.sd_Fusee_Colli_2		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_2.wav", 0, true);
 }

@@ -7,7 +7,7 @@
 	
 		global.sd_HUD_ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 0, true);
 
-		global.sd_SELECT_ok			= sound_add ( "Datas/Sounds/SND__HUD__SELECT.wav", 0, true);
+		global.sd_HUD_select		= sound_add ( "Datas/Sounds/SND__HUD__SELECT.wav", 0, true);
 		
 			sound_volume (global.sd_HUD_ok, 0.8);
 	

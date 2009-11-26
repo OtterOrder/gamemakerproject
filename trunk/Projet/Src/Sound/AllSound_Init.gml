@@ -60,4 +60,16 @@
 		global.sd_Fusee_Colli_1		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_1.wav", 0, true);
 		
 		global.sd_Fusee_Colli_2		= sound_add ( "Datas/Sounds/SND__EVENT__COLLISION_2.wav", 0, true);
+
+	// Ambiances
+	
+		global.sd_Ambiance_Rocket_Room	= sound_add ( "Datas/Sounds/AMBIANCE__ROCKET_ROOM.wav", 0, true);
+		
+		global.sd_Ambiance_Temple		= sound_add ( "Datas/Sounds/AMBIANCE__TEMPLE.wav", 0, true);
+		
+		global.sd_Ambiance_Cockpit		= sound_add ( "Datas/Sounds/AMBIANCE__COCKPIT.wav", 0, true);
+		
+		global.sd_Ambiance_Engine_Room	= sound_add ( "Datas/Sounds/AMBIANCE__ENGINE_ROOM.wav", 0, true);
+
+
 }

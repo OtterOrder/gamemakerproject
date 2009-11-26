@@ -6,6 +6,8 @@
 	// Menu & Options
 	
 		global.sd_HUD_ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 0, true);
+
+		global.sd_SELECT_ok			= sound_add ( "Datas/Sounds/SND__HUD__SELECT.wav", 0, true);
 		
 			sound_volume (global.sd_HUD_ok, 0.8);
 	
@@ -29,13 +31,17 @@
 		
 		global.sd_Jump	 			= sound_add ( "Datas/Sounds/SND__ACTION__JUMP.wav", 0, true);
 		
-		global.sd_Jump_Reception	= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 0, true);
+		global.sd_Jump_Reception		= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 0, true);
 		
 	// Perso : Actions
 	
 		global.sd_Action_Pour		= sound_add ( "Datas/Sounds/SND__ACTION__POUR.wav", 3, true);
 	
 		global.sd_Action_WC			= sound_add ( "Datas/Sounds/SND__ACTION__WC.wav", 3, true);
+
+		global.sd_Action_Pray		= sound_add ( "Datas/Sounds/SND__ACTION__PRAY.wav", 3, true);
+
+		global.sd_Action_Maintenance	= sound_add ( "Datas/Sounds/SND__ACTION__MAINTENANCE.wav", 3, true);
 	
 	// Machines
 	

@@ -1,8 +1,8 @@
 {
 	// Init
-	mKeyUp		   = ord('Z');
-	mKeyDown	   = ord('S');
-	mKeySelect	   = ord('E');
+	mKeyUp		   = vk_up;
+	mKeyDown	   = vk_down;
+	mKeySelect	   = vk_enter;
 	
 	mCurrentChoice = 0; 
 	

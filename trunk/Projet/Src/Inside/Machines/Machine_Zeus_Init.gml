@@ -8,10 +8,11 @@
 
 	mShootDamage		= 10;
 
-	mRepairSpeed		= 1;
 	mRepairHealthMax	= mHealthMax;
 
-	mNeededObj			= -1;
+	// Objects
+	mNbNeededObj		= 0;
+	mRepairSpeed		= 1;
 
 	// Init
 	image_speed			= 0;

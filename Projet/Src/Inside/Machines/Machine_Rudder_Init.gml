@@ -6,10 +6,14 @@
 	mDamageA			= 15;	// Damages = A + B*time
 	mDamageB			= 0;
 
-	mRepairSpeed		= mHealthMax;
 	mRepairHealthMax	= 0;
 
-	mNeededObj			= 0;
+	// Objects
+	mNbNeededObj		= 1;
+
+	mNeededObj[0]		= 0;
+
+	mRepairSpeed[0]		= mHealthMax;
 
 	// Init
 	image_speed			= 0;

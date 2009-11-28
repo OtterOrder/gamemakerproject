@@ -9,7 +9,8 @@
 	mRepairSpeed		= 6;
 	mRepairHealthMax	= mHealthMax;
 
-	mNeededObj			= -1;
+	// Objects
+	mNbNeededObj		= 0;
 
 	// Init
 	image_speed			= 0;

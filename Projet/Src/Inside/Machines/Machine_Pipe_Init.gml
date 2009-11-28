@@ -7,10 +7,11 @@
 	mDamageB			= 0.2/room_speed;
 	mCollisionDamage	= 5;
 
-	mRepairSpeed		= 5;
 	mRepairHealthMax	= mHealthMax;
 
-	mNeededObj			= -1;
+	// Objects
+	mNbNeededObj		= 0;
+	mRepairSpeed		= 5;
 
 	// Init
 	image_speed			= 0;

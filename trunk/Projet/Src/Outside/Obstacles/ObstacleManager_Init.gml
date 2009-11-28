@@ -1,7 +1,11 @@
 {
 	//
-	mObstaclesSpeed		= 3;
-	mObstacleProba		= 30;
+	mObstaclesSpeedA	= 3;
+	mObstaclesSpeedB	= 0.1;
+
+	mObstacleProbaA		= 30;
+	mObstacleProbaB		= -10;
+
 	mNbMaxObstacles		= 30;
 
 	mNbSprites			= 11;
@@ -17,14 +21,18 @@
 	mSprites[9]			= spr_Obstacle_10;
 	mSprites[10]		= spr_Obstacle_11;
 
-	mStartTimeMin		= 10*room_speed;	// x*room_speed;	x in seconds
-	mStartTimeMax		= 10*room_speed;	// x*room_speed;	x in seconds
+	mStartTimeAMin		= 10*room_speed;	// x*room_speed;	x in seconds
+	mStartTimeAMax		= 10*room_speed;	// x*room_speed;	x in seconds
+	mStartTimeB			= -0.2;
 
-	mEndTimeMin			= 30*room_speed;	// x*room_speed;	x in seconds
-	mEndTimeMax			= 40*room_speed;	// x*room_speed;	x in seconds
+	mEndTimeAMin		= 30*room_speed;	// x*room_speed;	x in seconds
+	mEndTimeAMax		= 40*room_speed;	// x*room_speed;	x in seconds
+	mEndTimeB			= 0.2;
+
+
 
 	mCurrentTime		= 0;
-	mTimeMax			= mStartTimeMax;
+	mTimeMax			= mStartTimeAMax;
 
 	mState				= 0;	// 0 : Wait;  1 : Lauch obstacles
 }

@@ -4,7 +4,7 @@
 	mObstaclesSpeedB	= 0.1;
 
 	mObstacleProbaA		= 30;
-	mObstacleProbaB		= -10;
+	mObstacleProbaB		= -0.1;
 
 	mNbMaxObstacles		= 30;
 

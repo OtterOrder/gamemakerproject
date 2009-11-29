@@ -35,11 +35,13 @@
 		
 	// Perso : Actions
 	
+		global.sd_Action_Drop  		= sound_add ( "Datas/Sounds/SND__ACTION__DROP.wav", 0, true);
+	
 		global.sd_Action_Pour		= sound_add ( "Datas/Sounds/SND__ACTION__POUR.wav", 3, true);
 	
 		global.sd_Action_WC			= sound_add ( "Datas/Sounds/SND__ACTION__WC.wav", 3, true);
 
-		global.sd_Action_Pray		= sound_add ( "Datas/Sounds/SND__ACTION__PRAY.wav", 3, true);
+		global.sd_Action_Pray		= sound_add ( "Datas/Sounds/SND__ACTION__PRAY.wav", 0, true);
 
 		global.sd_Action_Maintenance	= sound_add ( "Datas/Sounds/SND__ACTION__MAINTENANCE.wav", 3, true);
 	

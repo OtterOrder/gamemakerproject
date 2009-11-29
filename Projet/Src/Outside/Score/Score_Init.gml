@@ -1,6 +1,7 @@
 {
 	//
 	mScore = 0;
+	mCoef = 100;
 	
 	mX = view_xview[2];
     mY = view_yview[2];

@@ -13,6 +13,9 @@
 	mNbNeededObj		= 0;
 	mRepairSpeed		= 5;
 
+	// Depth
+	mPlayerDepth		= 14;
+
 	// Init
 	image_speed			= 0;
 }

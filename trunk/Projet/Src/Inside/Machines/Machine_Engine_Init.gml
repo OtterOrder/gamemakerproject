@@ -21,6 +21,9 @@
 	mEngineSpeedMax		= 4;
 	mEngineSpeedMin 	= 0;
 
+	// Depth
+	mPlayerDepth		= 6;
+
 	// Init
 	image_speed			= 0;
 }

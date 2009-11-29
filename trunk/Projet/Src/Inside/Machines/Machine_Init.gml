@@ -12,6 +12,9 @@
 	// Objects
 	mNbNeededObj		= 0;
 
+	// Depth
+	mPlayerDepth		= 10;
+
 	// Init
 	image_speed			= 0;
 }

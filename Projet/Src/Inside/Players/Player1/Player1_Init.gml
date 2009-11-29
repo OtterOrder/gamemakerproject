@@ -45,4 +45,7 @@
 
 	// View
 	mViewId				= 0;
+
+	// Depth
+	mDepth				= 10;
 }

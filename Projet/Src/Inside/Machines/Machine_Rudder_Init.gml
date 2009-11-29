@@ -15,6 +15,9 @@
 
 	mRepairSpeed[0]		= mHealthMax;
 
+	// Depth
+	mPlayerDepth		= 14;
+
 	// Init
 	image_speed			= 0;
 }

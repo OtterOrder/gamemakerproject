@@ -12,7 +12,7 @@
 	mKeyUp				= ord('Z');
 	mKeyDown			= ord('S');
 
-	mKeyJump			= vk_lshift;
+	mKeyJump			= vk_lcontrol;
 	mKeyAction			= ord('E');
 
 	// Sprites

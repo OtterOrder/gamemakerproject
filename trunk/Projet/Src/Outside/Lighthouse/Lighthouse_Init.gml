@@ -15,6 +15,4 @@
 	mKeyDown			= 0;
 
 	mKeyShoot			= 0;
-
-	mSpeed 				= 0;
 }

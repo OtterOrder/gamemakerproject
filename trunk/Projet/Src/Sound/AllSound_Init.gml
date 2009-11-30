@@ -36,6 +36,8 @@
 	// Perso : Actions
 	
 		global.sd_Action_Drop  		= sound_add ( "Datas/Sounds/SND__ACTION__DROP.wav", 0, true);
+		
+		global.sd_Action_Catch 		= sound_add ( "Datas/Sounds/SND__ACTION__CATCH.wav", 0, true);
 	
 		global.sd_Action_Pour		= sound_add ( "Datas/Sounds/SND__ACTION__POUR.wav", 3, true);
 	
@@ -48,6 +50,10 @@
 	// Machines
 	
 	// Fusée
+	
+		global.sd_Fusee_Hit_1		= sound_add ( "Datas/Sounds/SND__WPN__HIT1.wav", 0, true);
+		
+		global.sd_Fusee_Hit_2		= sound_add ( "Datas/Sounds/SND__WPN__HIT2.wav", 0, true);
 	
 		global.sd_Fusee_Fire_1		= sound_add ( "Datas/Sounds/SND__WPN__FIRE1.wav", 0, true);
 		

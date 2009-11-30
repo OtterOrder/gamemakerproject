@@ -22,6 +22,4 @@
 		view_xport[1]	= 662;	// x position on screen
 		view_yport[1]	= 0;	// y position on screen
 		*/
-
-		global.gStartTime = current_time;
 }

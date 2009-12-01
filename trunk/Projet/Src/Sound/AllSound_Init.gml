@@ -8,8 +8,6 @@
 		global.sd_HUD_Ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 0, true);
 
 		global.sd_HUD_Select		= sound_add ( "Datas/Sounds/SND__HUD__SELECT.wav", 0, true);
-		
-			sound_volume (global.sd_HUD_Ok, 0.8);
 	
 	// Start game
 	

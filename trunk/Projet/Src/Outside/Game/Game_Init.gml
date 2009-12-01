@@ -18,8 +18,4 @@
 	mScoreEnd[0]		= 0;
 	mScoreEnd[1]		= 1000;
 	mScoreEnd[2]		= 3600;
-
-	mEnd[0]				= RoomEnd1;
-	mEnd[1]				= RoomEnd2;
-	mEnd[2]				= RoomEnd3;
 }

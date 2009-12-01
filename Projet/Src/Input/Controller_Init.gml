@@ -7,8 +7,12 @@
 	mKeyJump			= 0;
 	mKeyAction			= 0;
 
+	mKeyPause			= 0;
+
 	mJoystickTreshold	= 0.4;
 	
 	mButtonJump			= 1;	//	 1 : A; 2 : B, 3 : X, 4 : Y
 	mButtonAction		= 3;
+
+	mButtonPause		= 8;	//	8 : Start
 }

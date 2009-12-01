@@ -3,16 +3,16 @@
 	mHealthMax			= 100;
 	mHealth				= mHealthMax;
 
-	mDamageA			= 1/room_speed;	// Damages = A + B*time
-	mDamageB			= 0.2/room_speed;
+	mDamageA			= 0/room_speed;	// Damages = A + B*time
+	mDamageB			= 0/room_speed;
 
-	mShootDamage		= 10;
+	mShootDamage		= 7.5;
 
 	mRepairHealthMax	= mHealthMax;
 
 	// Objects
 	mNbNeededObj		= 0;
-	mRepairSpeed		= 1;
+	mRepairSpeed		= 2;
 
 	// Depth
 	mPlayerDepth		= 14;

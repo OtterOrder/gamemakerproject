@@ -1,10 +1,10 @@
 {
 	// Speed
-	mWalkSpeed			= 4;
+	mWalkSpeed			= 5;
 	mJumpSpeed			= 10;
 	mFallSpeed			= 10;
-	mClimbSpeed			= 2;
-	mGravityCoef		= 0.5;
+	mClimbSpeed			= 4;
+	mGravityCoef		= 1;
 
 	// Keys
 	mKeyRight			= ord('M');

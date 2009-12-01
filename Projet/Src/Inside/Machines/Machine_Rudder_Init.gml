@@ -3,8 +3,10 @@
 	mHealthMax			= 100;
 	mHealth				= 100;
 
-	mDamageA			= 10;	// Damages = A + B*time
+	mDamageA			= 0;	// Damages = A + B*time
 	mDamageB			= 0;
+
+	mCollisionDamage	= 10;
 
 	mRepairHealthMax	= 0;
 

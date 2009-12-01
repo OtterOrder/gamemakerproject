@@ -6,6 +6,8 @@
 	mDamageA			= 0/room_speed;	// Damages = A + B*time
 	mDamageB			= 0/room_speed;
 
+	mCollisionDamage	= 0;
+
 	mShootDamage		= 7.5;
 
 	mRepairHealthMax	= mHealthMax;

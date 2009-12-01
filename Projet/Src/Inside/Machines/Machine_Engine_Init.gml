@@ -24,6 +24,15 @@
 	// Depth
 	mPlayerDepth		= 6;
 
+	//Added Damages
+	mNbAddedDamages		= 2;
+
+	mPipeHealth[0]		= 0;
+	mPipeHealth[1]		= 50;
+
+	mAddedDamages[0]	= 2/room_speed;
+	mAddedDamages[1]	= 1/room_speed;
+
 	// Init
 	image_speed			= 0;
 }

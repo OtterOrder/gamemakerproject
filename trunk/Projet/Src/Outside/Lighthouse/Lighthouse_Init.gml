@@ -1,9 +1,9 @@
 {
 	//
-	mSpeedMax				= 4;
+	mSpeedMax				= 5;
 
-	mAccelerationMin		= 0.1;
-	mAccelerationMax		= 1;
+	mAccelerationMin		= 0.01;
+	mAccelerationMax		= 2;
 
 	// Do not modify
 	mActive				= false;
@@ -15,4 +15,6 @@
 	mKeyDown			= 0;
 
 	mKeyShoot			= 0;
+
+	mSpeed 				= 0;
 }

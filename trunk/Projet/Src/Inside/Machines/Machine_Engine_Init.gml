@@ -7,6 +7,8 @@
 	mDamageA			= 1/room_speed;	// Damages = A + B*time
 	mDamageB			= 0.15/room_speed;
 
+	mCollisionDamage	= 0;
+
 	mRepairHealthMax	= mHealthMax;
 
 	// Objects

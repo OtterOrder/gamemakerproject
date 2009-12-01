@@ -1,9 +1,9 @@
 {
 	//
 	mHealthMax			= 100;
-	mHealth				= 0;
+	mHealth				= 100;
 
-	mDamageA			= 15;	// Damages = A + B*time
+	mDamageA			= 10;	// Damages = A + B*time
 	mDamageB			= 0;
 
 	mRepairHealthMax	= 0;

@@ -3,6 +3,8 @@
 	mKeyUp		   = vk_up;
 	mKeyDown	   = vk_down;
 	mKeySelect	   = vk_enter;
+
+	mPauseButton   = 0;
 	
 	mCurrentChoice = 0; 
 	

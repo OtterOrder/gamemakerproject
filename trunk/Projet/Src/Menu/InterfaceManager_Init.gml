@@ -6,12 +6,11 @@
 	
 	mCurrentChoice = 0; 
 	
-	mNbChoices = 4;
+	mNbChoices = 3;
 	
 	mChoice[0] = obj_Jouer;
-	mChoice[1] = obj_Options;
+	mChoice[1] = obj_Tuto;
 	mChoice[2] = obj_Classement;
-	mChoice[3] = obj_Tuto;
-	mChoice[4] = obj_Quitter;
+	mChoice[3] = obj_Quitter;
 	
 }

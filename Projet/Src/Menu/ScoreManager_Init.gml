@@ -1,6 +1,6 @@
 {
 	// Init
 	
-	//fileDir = 
+	mFileDir = "Src\Outside\Lighthouse\Init.gm";
 	
 }

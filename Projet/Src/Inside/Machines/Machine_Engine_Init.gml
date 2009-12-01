@@ -4,8 +4,8 @@
 	mHealth				= mHealthMax;
 	mHealthBonus		= 100;
 
-	mDamageA			= 0.02;	// Damages = A + B*time
-	mDamageB			= 0;
+	mDamageA			= 1/room_speed;	// Damages = A + B*time
+	mDamageB			= 0.15/room_speed;
 
 	mRepairHealthMax	= mHealthMax;
 
@@ -15,8 +15,8 @@
 	mNeededObj[0]		= 1;
 	mNeededObj[1]		= 2;
 
-	mRepairSpeed[0]		= 90;
-	mRepairSpeed[1]		= 45;
+	mRepairSpeed[0]		= 80;
+	mRepairSpeed[1]		= 40;
 
 	mEngineSpeedMax		= 4;
 	mEngineSpeedMin 	= 0;

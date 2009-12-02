@@ -18,7 +18,10 @@
 
 	
 	mNbSources = 4;
-	mLimite = 900; // Distance à partir de laquelle le son n'est plus entendu
+	mLimite = 800; // Distance à partir de laquelle le son n'est plus entendu
+	
+	mPrecSourcej1 = -1;
+	mPrecSourcej2 = -1;
 	
 	mSources[0] = obj_Source_Cockpit;
 	mSources[1] = obj_Source_Temple;

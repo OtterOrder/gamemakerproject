@@ -13,14 +13,8 @@
 	image_xscale	= 2;
 	image_yscale	= 2;
 
-	mSlide[0]		= 0;
-	mSlide[1]		= 0;
-	mSlide[2]		= 0;
-	mSlide[3]		= 0;
-
 
 	// Do not modify
 	mSlideIdx		= 0;
-
 	mAnimAtEnd		= false;
 }

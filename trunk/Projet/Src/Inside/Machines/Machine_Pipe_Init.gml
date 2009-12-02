@@ -12,7 +12,7 @@
 
 	// Objects
 	mNbNeededObj		= 0;
-	mRepairSpeed		= 2;
+	mRepairSpeed		= 1.5;
 
 	// Depth
 	mPlayerDepth		= 14;

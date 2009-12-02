@@ -21,11 +21,11 @@
 	mSprites[9]			= spr_Obstacle_10;
 	mSprites[10]		= spr_Obstacle_11;
 
-	mStartTimeAMin		= 30*room_speed;	// x*room_speed;	x in seconds
-	mStartTimeAMax		= 40*room_speed;	// x*room_speed;	x in seconds
+	mStartTimeAMin		= 35*room_speed;	// x*room_speed;	x in seconds
+	mStartTimeAMax		= 45*room_speed;	// x*room_speed;	x in seconds
 	mStartTimeB			= 0;
 
-	mEndTimeAMin		= 15*room_speed;	// x*room_speed;	x in seconds
+	mEndTimeAMin		= 25*room_speed;	// x*room_speed;	x in seconds
 	mEndTimeAMax		= 45*room_speed;	// x*room_speed;	x in seconds
 	mEndTimeB			= 10;
 

@@ -4,10 +4,10 @@
 	mHealth				= mHealthMax;
 	mHealthBonus		= 100;
 
-	mDamageA			= 1/room_speed;	// Damages = A + B*time
-	mDamageB			= 0.15/room_speed;
+	mDamageA			= 0.8/room_speed;	// Damages = A + B*time
+	mDamageB			= 0.1/room_speed;
 
-	mCollisionDamage	= 0;
+	mCollisionDamage	= 3;
 
 	mRepairHealthMax	= mHealthMax;
 

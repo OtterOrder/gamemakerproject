@@ -1,6 +1,6 @@
 {
 	// Score
-	global.mScore = 0;
+	global.gScore = 0;
 	mCoef = 1000;
 	
 	mX = view_xview[2];
@@ -11,11 +11,4 @@
 	mColor3 = c_white;
 	mColor4 = c_white;
 	mA = 1;
-
-	// GameOver
-	mNbEnds 			= 3;
-
-	mScoreEnd[0]		= 0;
-	mScoreEnd[1]		= 1000;
-	mScoreEnd[2]		= 3600;
 }

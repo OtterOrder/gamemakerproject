@@ -1,6 +1,6 @@
 {
 	// Score
-	mScore = 0;
+	global.mScore = 0;
 	mCoef = 1000;
 	
 	mX = view_xview[2];

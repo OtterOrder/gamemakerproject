@@ -1,0 +1,3 @@
+Il y a 7 animations des boules d'énergie, mais on est pas obligés de toutes les mettre
+
+---> Garder les plus grosses

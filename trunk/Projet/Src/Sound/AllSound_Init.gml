@@ -18,6 +18,9 @@
 	// Phases de jeu
 	
 	// DENOUEMENT
+		
+		global.sd_End1				= sound_add ( "Datas/Sounds/MUSIC__END_1.wav", 3, true);
+		sound_volume(global.sd_End1, 1 );
 	
 	// Perso : Déplacements
 	
@@ -33,7 +36,7 @@
 		global.sd_Jump	 			= sound_add ( "Datas/Sounds/SND__ACTION__JUMP.wav", 0, true);
 		sound_volume(global.sd_Jump, 0.9 );
 		
-		global.sd_Jump_Reception		= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 0, true);
+		global.sd_Jump_Reception	= sound_add ( "Datas/Sounds/SND__ACTION__JUMP_RECEPTION.wav", 0, true);
 		sound_volume(global.sd_Jump_Reception, 0.9 );
 		
 	// Perso : Actions

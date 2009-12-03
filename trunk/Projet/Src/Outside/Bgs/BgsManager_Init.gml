@@ -2,13 +2,15 @@
 	mNbBgs = 31;
 
 	// Scores
-		// 1 to 3
+		// 1 to 2
 		mBgScore[ 0]	= 0;
-		mBgScore[ 1]	= 660;
-		mBgScore[ 2]	= 670;
-		mBgScore[ 3]	= 680;
-		mBgScore[ 4]	= 690;
-		mBgScore[ 5]	= 700;
+		mBgScore[ 1]	= 10;
+		mBgScore[ 2]	= 20;
+		mBgScore[ 3]	= 30;
+		mBgScore[ 4]	= 40;
+		mBgScore[ 5]	= 50;
+
+		// 2 to 3
 		mBgScore[ 6]	= 710;
 		mBgScore[ 7]	= 720;
 		mBgScore[ 8]	= 730;

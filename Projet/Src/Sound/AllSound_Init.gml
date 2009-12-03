@@ -21,6 +21,9 @@
 		
 		global.sd_End1				= sound_add ( "Datas/Sounds/MUSIC__END_1.wav", 3, true);
 		sound_volume(global.sd_End1, 1 );
+		
+		global.sd_End2				= sound_add ( "Datas/Sounds/MUSIC__END_2.wav", 3, true);
+		sound_volume(global.sd_End2, 1 );
 	
 	// Perso : Déplacements
 	

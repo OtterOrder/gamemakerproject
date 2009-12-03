@@ -27,10 +27,16 @@
 		
 		mDecal[0] = 0;
 		mDecal[1] = 50;
-		mDecal[2] = 100;
+		mDecal[2] = 120;
 		
 		file_text_close(mFile);
 	}
+	
+	mColor1 = c_white;
+	mColor2 = c_white;
+	mColor3 = c_white;
+	mColor4 = c_white;
+	mA = 1;
 	
 	
 }

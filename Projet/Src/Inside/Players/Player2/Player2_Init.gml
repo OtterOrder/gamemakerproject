@@ -42,7 +42,7 @@
 
 
 	mMachineSprites[0]	= spr_Player2_Zeus;		// Zeus
-	mMachineSprites[1]	= spr_Player2_Ladder;	// Pipes
+	mMachineSprites[1]	= spr_Player2_Pipes;	// Pipes
 	mMachineSprites[2]	= spr_Player2_Engine;	// Engines
 	mMachineSprites[3]	= spr_Player2_Rudder;	// Rudder
 

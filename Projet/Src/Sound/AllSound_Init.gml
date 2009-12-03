@@ -53,7 +53,7 @@
 		global.sd_Action_Pour		= sound_add ( "Datas/Sounds/SND__ACTION__POUR.wav", 3, true);
 		sound_volume(global.sd_Action_Pour, 0.9 );
 	
-		global.sd_Action_WC			= sound_add ( "Datas/Sounds/SND__ACTION__WC.wav", 3, true);
+		global.sd_Action_WC			= sound_add ( "Datas/Sounds/SND__ACTION__WC.wav", 0, true);
 		sound_volume(global.sd_Action_WC	, 0.9 );
 
 		global.sd_Action_Pray		= sound_add ( "Datas/Sounds/SND__ACTION__PRAY.wav", 0, true);

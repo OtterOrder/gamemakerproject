@@ -37,8 +37,8 @@
 	mSprites[6, 0]		= spr_Player2_DoorOut_Right;
 	mSprites[6, 1]		= spr_Player2_DoorOut_Left;
 
-	mSprites[7, 0]		= spr_Player1_HandleObject_Right;
-	mSprites[7, 1]		= spr_Player1_HandleObject_Left;
+	mSprites[7, 0]		= spr_Player2_HandleObject_Right;
+	mSprites[7, 1]		= spr_Player2_HandleObject_Left;
 
 
 	mMachineSprites[0]	= spr_Player2_Zeus;		// Zeus

@@ -32,10 +32,10 @@
 		file_text_close(mFile);
 	}
 	
-	mColor1 = make_color_rgb(254,245,157);
-	mColor2 = make_color_rgb(254,245,157);
-	mColor3 = make_color_rgb(254,245,157);
-	mColor4 = make_color_rgb(254,245,157);
+	mColor1 = make_color_rgb(220,209,97);
+    mColor2 = make_color_rgb(220,209,97);
+    mColor3 = make_color_rgb(220,209,97);
+    mColor4 = make_color_rgb(220,209,97);
 	mA = 1;
 	
 	

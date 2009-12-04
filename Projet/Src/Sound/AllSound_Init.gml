@@ -8,10 +8,12 @@
 		global.sd_HUD_Ok 			= sound_add ( "Datas/Sounds/SND__HUD__OK.wav", 0, true);
 
 		global.sd_HUD_Select		= sound_add ( "Datas/Sounds/SND__HUD__SELECT.wav", 0, true);
+		
+		global.sd_Menu		 		= sound_add ( "Datas/Sounds/MUSIC__MENU.wav", 3, true);
 	
 	// Start game
 	
-		global.sd_Start_Game 		= sound_add ( "Datas/Sounds/MUSIC__START_GAME__FULL.wav", 3, true);
+		global.sd_Start_Game 		= sound_add ( "Datas/Sounds/MUSIC__STARTGAME.wav", 3, true);
 		
 		global.sd_Take_Off 			= sound_add ( "Datas/Sounds/SND__EVENT__TAKEOFF.wav", 3, true);
 	
@@ -20,10 +22,10 @@
 	// DENOUEMENT
 		
 		global.sd_End1				= sound_add ( "Datas/Sounds/MUSIC__END_1.wav", 3, true);
-		sound_volume(global.sd_End1, 1 );
+		sound_volume(global.sd_End1, 1);
 		
 		global.sd_End2				= sound_add ( "Datas/Sounds/MUSIC__END_2.wav", 3, true);
-		sound_volume(global.sd_End2, 1 );
+		sound_volume(global.sd_End2, 1);
 	
 	// Perso : Déplacements
 	

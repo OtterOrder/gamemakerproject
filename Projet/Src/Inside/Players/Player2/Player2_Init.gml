@@ -43,8 +43,8 @@
 
 	mMachineSprites[0]	= spr_Player2_Zeus;				// Zeus
 	mMachineSprites[1]	= spr_Player2_Pipes;			// Pipes
-	mMachineSprites[2]	= spr_Player2_Engine_Right;		// Engine Right
-	mMachineSprites[3]	= spr_Player2_Engine_Left;		// Engine Left
+	mMachineSprites[2]	= spr_Player2_Engine_Left;		// Engine Right
+	mMachineSprites[3]	= spr_Player2_Engine_Right;		// Engine Left
 	mMachineSprites[4]	= spr_Player2_Rudder;			// Rudder
 	mMachineSprites[5]	= spr_Player2_Rudder_Explosed;	// Rudder Explosed
 

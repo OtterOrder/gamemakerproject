@@ -1,10 +1,11 @@
 {
 	// Sprites
-	mNbSlides		= 3;
+	mNbSlides		= 4;
 
-	mSprite[0]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_1.gif";
-	mSprite[1]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_2.gif";
-	mSprite[2]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_3.gif";
+	mSprite[0]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_1.png";
+	mSprite[1]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_2.png";
+	mSprite[2]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_3.png";
+	mSprite[3]		= "Datas\Graphics\Sprites\Diaporamas\Tutorial\spr_Tutorial_4.png";
 
 	// Slides
 	mNextRoom		= RoomMenu;

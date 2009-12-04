@@ -20,7 +20,7 @@
 	mRepairSpeed[0]		= 80;
 	mRepairSpeed[1]		= 40;
 
-	mEngineSpeedMax		= 4;
+	mEngineSpeedMax		= 3;
 	mEngineSpeedMin 	= 0.5;
 
 	// Depth

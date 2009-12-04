@@ -24,7 +24,7 @@
 	mEngineSpeedMin 	= 0.5;
 
 	// Depth
-	mPlayerDepth		= 6;
+	mPlayerDepth		= 8;
 
 	//Added Damages
 	mNbAddedDamages		= 2;

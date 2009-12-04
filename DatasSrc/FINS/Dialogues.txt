@@ -1,0 +1,110 @@
+--1--
+[17 secondes au total]
+
+[P]: Maître Archimède, votre découverte est d'une valeur incommensurable!
+Ces parchemins pourraient contenir les réponses aux plus grands mystères de la cosmologie!
+[9 secondes]
+
+[A]: En effet mon cher Philolaos. Et d'après ce qui est écrit ici,
+il existe une "Salle des connaissances" cachée dans le Phare d'Alexandire.
+[8 secondes]
+
+
+
+--2--
+[8 secondes au total]
+
+[P]: Vous pensez que les autres parchemins s'y trouvent toujours?
+[4 secondes]
+
+[A]: Il me faut aller vérifier cela sur le champ.
+[4 secondes]
+
+
+--3--
+[18 secondes au total]
+
+[P]: Il n'était pas nécessaire d'entrer par effraction,
+nous aurions simplement pu attendre l'aube...
+[6 secondes]
+
+[A]: La science ne peut attendre plus longtemps!
+[4 secondes]
+
+[P]: Si vous le dites, Maître.
+[3 secondes]
+
+[A]: Maintenant que c'est fait, montons voir la salle secrète.
+[5 secondes]
+
+
+--4--
+[22 secondes au total]
+
+[A]: Où sont donc les parchemins? Il n'y a que cette étrange machine...
+[6 secondes]
+
+[P]: Quelle est donc cette magie? Regardez toutes ces bougies colorées
+dans cet appareil!
+[6 secondes]
+
+[A]: Hmm... Un de ces boutons va sans doute ouvrir le chemin de la connaissance.
+D'après les couleurs, si j'appuie sur celui-ci...
+[10 secondes]
+
+
+--5--
+[décollage]
+
+
+
+--6--
+[20 secondes au total]
+
+[P]: Par tous les dieux, nous allons droit vers la voûte céleste!
+Et le phare commence à partir en morceaux!
+[7 secondes]
+
+[A]: Nous devons analyser au plus vite le fonctionnement de ces machines
+qui propulsent le phare! Si ces appareils cessent de fonctionner,
+nous allons...
+[10 secondes]
+
+[P]: ...mourir ?
+[3 secondes]
+
+
+
+
+
+
+--FIN1--
+[P]: J'ai bien peur que le phare ait aterri sur la bibliothèque, Maître.
+
+
+--FIN2--
+[P]: Il faut voir le bon côté des choses : on a une belle vue d'ici.
+
+
+--FIN3--
+[A]:  Bon, on répare le phare et on repart?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

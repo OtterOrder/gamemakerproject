@@ -21,7 +21,7 @@
 	mRepairSpeed[1]		= 40;
 
 	mEngineSpeedMax		= 4;
-	mEngineSpeedMin 	= 0;
+	mEngineSpeedMin 	= 0.5;
 
 	// Depth
 	mPlayerDepth		= 6;

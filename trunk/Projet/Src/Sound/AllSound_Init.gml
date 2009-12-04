@@ -26,6 +26,9 @@
 		
 		global.sd_End2				= sound_add ( "Datas/Sounds/MUSIC__END_2.wav", 3, true);
 		sound_volume(global.sd_End2, 1);
+		
+		global.sd_End3				= sound_add ( "Datas/Sounds/MUSIC__END_3.wav", 3, true);
+		sound_volume(global.sd_End3, 1);
 	
 	// Perso : Déplacements
 	
@@ -61,8 +64,11 @@
 		global.sd_Action_Pray		= sound_add ( "Datas/Sounds/SND__ACTION__PRAY.wav", 0, true);
 		sound_volume(global.sd_Action_Pray, 0.9 );
 
-		global.sd_Action_Maintenance	= sound_add ( "Datas/Sounds/SND__ACTION__MAINTENANCE.wav", 3, true);
+		global.sd_Action_Maintenance	= sound_add ( "Datas/Sounds/SND__ACTION__MAINTENANCE.wav", 0, true);
 		sound_volume(global.sd_Action_Maintenance, 0.9 );
+		
+		global.sd_Action_Error		= sound_add ( "Datas/Sounds/SND__ACTION__ERROR.wav", 0, true);
+		sound_volume(global.sd_Action_Error, 0.9 );
 	
 	// Machines
 	
